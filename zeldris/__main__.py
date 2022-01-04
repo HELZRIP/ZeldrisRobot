@@ -94,13 +94,13 @@ ZELDRIS_IMG = "https://telegra.ph/file/1fa00785f30375c0c1b50.jpg"
 
 PM_START_TEXT = """
 Hey there! my name is *{}*. 
-A modular group management bot with useful features. [ㅤ](https://telegra.ph/file/fed9ba09e9add9b197c21.png)
+A modular group management bot with useful features. [ㅤ](https://telegra.ph/file/96e3bdf71a6d1386eb655.jpg)
 
 ◑ *Uptime:* `{}`
 ◑ `{}` *Users, across* `{}` *chats.*
 
 Any issues or need help related to me?
-Join our official group [IDNCoderX](https://t.me/IDNCoderX).
+Join our official group [here](https://t.me/Rsupportprobot).
 Click help button to know my commands!
 """
 
@@ -117,8 +117,8 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Add Zeldris to Your Group 👥",
-            url="t.me/ZeldrisRobot?startgroup=true",
+            text="Add {} to Your Group 👥",
+            url="t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
 ]
@@ -264,11 +264,11 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="☎️ Support",
-                            url="https://t.me/IDNCoderX",
+                            url="https://t.me/Rsupportprobot",
                         ),
                         InlineKeyboardButton(
                             text="Updates 📡",
-                            url="https://t.me/IDNCoder",
+                            url="https://t.me/Akeno_update",
                         ),
                     ]
                 ]
